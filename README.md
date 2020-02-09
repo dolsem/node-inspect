@@ -1,3 +1,8 @@
+### This is a fork of [node-inspect](https://github.com/nodejs/node-inspect) that adds an option to auto-resume execution when debugger pauses on start:
+```sh
+$ NODE_INSPECT_RESUME_ON_START=1 node-inspect script.js
+```
+
 # `node-inspect`
 
 ```bash

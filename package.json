@@ -1,17 +1,17 @@
 {
-  "name": "node-inspect",
+  "name": "@dolsem/node-inspect",
   "version": "1.11.6",
   "description": "Node Inspect",
   "license": "MIT",
   "main": "lib/_inspect.js",
   "bin": "cli.js",
-  "homepage": "https://github.com/nodejs/node-inspect",
+  "homepage": "https://github.com/dolsem/node-inspect",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nodejs/node-inspect"
+    "url": "git+ssh://git@github.com/dolsem/node-inspect"
   },
   "bugs": {
-    "url": "https://github.com/nodejs/node-inspect/issues"
+    "url": "https://github.com/dolsem/node-inspect/issues"
   },
   "scripts": {
     "pretest": "eslint --rulesdir=tools/eslint-rules lib test",
@@ -32,8 +32,8 @@
     "tap": "^10.7.0"
   },
   "author": {
-    "name": "Jan Krems",
-    "email": "jan.krems@gmail.com"
+    "name": "Denis Semenenko",
+    "email": "dols3m@gmail.com"
   },
   "files": [
     "*.js",
